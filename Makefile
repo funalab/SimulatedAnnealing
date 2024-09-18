@@ -1,6 +1,6 @@
-PROG = helloSBML
+PROG = main
 OBJS = main.o
-CC = clang
+CC = gcc
 CFLAGS = -g -Wall -I./include
 LDFLAGS = -L./lib -Wl,--rpath -Wl,./lib -lsbml -lm -lz -lxml2
 
