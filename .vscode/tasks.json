@@ -10,7 +10,7 @@
                 "-I./include",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}/helloSBML",
                 "-L./lib",
                 "-Wl,--rpath",
                 "-Wl,./lib",
