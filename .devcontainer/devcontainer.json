@@ -1,5 +1,5 @@
 {
-  "name": "helloSBML",
+  "name": "SimulatedAnnealing",
   "customizations": {
     "vscode": {
       "extensions": [

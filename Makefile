@@ -1,4 +1,4 @@
-PROG = helloSBML
+PROG = SimulatedAnnealing
 OBJS = main.o
 CC = gcc
 CFLAGS = -g -Wall -I./include
