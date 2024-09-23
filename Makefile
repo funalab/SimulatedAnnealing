@@ -1,4 +1,4 @@
-PROG = main
+PROG = helloSBML
 OBJS = main.o
 CC = gcc
 CFLAGS = -g -Wall -I./include
@@ -9,7 +9,7 @@ all: $(PROG)
 
 .SUFFIXES: .o .c
 .c.o:
-	$(CC) $(CFLAGS) $(CQUERYFLAGS) -o $@ -c $<
+	$(CC) $(CFLAGS) -o $@ -c $<
 
 $(PROG): $(OBJS)
 	$(CC) -o $@ $^ $(LDFLAGS)
