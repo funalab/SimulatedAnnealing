@@ -1,5 +1,5 @@
 PROG = SimulatedAnnealing
-OBJS = main.o
+OBJS = main.o unif_param.o unif_update.o
 CC = gcc
 CFLAGS = -g -Wall -I./include
 LDFLAGS = -L./lib -Wl,--rpath -Wl,./lib -lsbml -lm -lz -lxml2
