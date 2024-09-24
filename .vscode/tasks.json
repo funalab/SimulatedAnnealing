@@ -9,7 +9,7 @@
         "-g",
         "-Wall",
         "-I./include",
-        "${fileDIrname}/*.c",
+        "${fileDirname}/*.c",
         "-o",
         "${fileDirname}/SimulatedAnnealing",
         "-L./lib",
